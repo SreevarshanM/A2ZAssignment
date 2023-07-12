@@ -1,6 +1,5 @@
 import "../../styles/task2.css";
 import { Link } from "react-router-dom";
-import { useSelector } from "react-redux/es/hooks/useSelector";
 import { useDispatch } from "react-redux";
 const CardLayout = (props) => {
   const dispatch = useDispatch();
